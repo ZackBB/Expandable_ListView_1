@@ -34,6 +34,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+        String asd;
+
         expandListView = (ExpandableListView)findViewById(R.id.expanableLV_id);
 
         //主資料的List
